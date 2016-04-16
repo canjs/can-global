@@ -1,5 +1,5 @@
 var getGlobal = require('can-util/js/global/');
-var isBrowserWindow = require("../isBrowserWindow/");
+var isBrowserWindow = require("../is-browser-window/");
 var QUnit = require('steal-qunit');
 
 QUnit.module("can-util/js/global")
