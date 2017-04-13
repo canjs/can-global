@@ -1,5 +1,7 @@
 # can-global
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-global.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/canjs/can-global.png?branch=master)](https://travis-ci.org/canjs/can-global)
 
 Returns the global that this environment provides.
