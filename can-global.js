@@ -1,6 +1,6 @@
 /**
- * @module {function} can-util/js/global/global global
- * @parent can-util/js
+ * @module {function} can-global can-global
+ * @parent can-infrastructure
  * @signature `GLOBAL()`
  *
  * Returns the global that this environment provides. It will be one of:
@@ -10,7 +10,7 @@
  * * **Node.js**: `global`
  *
  * ```js
- * var GLOBAL = require("can-util/js/global/global");
+ * var GLOBAL = require("can-global");
  *
  * var g = GLOBAL();
  *
