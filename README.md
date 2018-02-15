@@ -11,7 +11,7 @@ Returns the global that this environment provides.
 With StealJS, you can import this module directly in a template that is autorendered:
 
 ```js
-import plugin from 'can-global';
+import plugin from "can-global";
 ```
 
 ### CommonJS use
@@ -20,7 +20,7 @@ Use `require` to load `can-global` and everything else
 needed to create a template that uses `can-global`:
 
 ```js
-var plugin = require("can-global");
+import plugin from "can-global";
 ```
 
 ### Standalone use
