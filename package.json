@@ -1,6 +1,6 @@
 {
   "name": "can-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns the global that this environment provides.",
   "homepage": "https://canjs.com/",
   "repository": {
