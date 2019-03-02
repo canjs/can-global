@@ -1,32 +1,22 @@
 # can-global
 
-[![Build Status](https://travis-ci.org/canjs/can-global.png?branch=master)](https://travis-ci.org/canjs/can-global)
+[![Join our Slack](https://img.shields.io/badge/slack-join%20chat-611f69.svg)](https://www.bitovi.com/community/slack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join our Discourse](https://img.shields.io/discourse/https/forums.bitovi.com/posts.svg)](https://forums.bitovi.com/?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/canjs/can-global/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/can-global.svg)](https://www.npmjs.com/package/can-global)
+[![Travis build status](https://travis-ci.org/canjs/can-global.svg?branch=master)](https://travis-ci.org/canjs/can-global)
+[![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-global.svg)](https://greenkeeper.io/)
 
 Returns the global that this environment provides.
 
-## Usage
+## Changelog
 
-### ES6 use
+See the [latest releases on GitHub](https://github.com/canjs/can-global/releases).
 
-With StealJS, you can import this module directly in a template that is autorendered:
+## Contributing
 
-```js
-import plugin from "can-global";
-```
+The [contribution guide](https://github.com/canjs/can-global/blob/master/CONTRIBUTING.md) has information on getting help, reporting bugs, developing locally, and more.
 
-### CommonJS use
+## License
 
-Use `require` to load `can-global` and everything else
-needed to create a template that uses `can-global`:
-
-```js
-import plugin from "can-global";
-```
-
-### Standalone use
-
-Load the `global` version of the plugin:
-
-```html
-<script src='./node_modules/can-global/dist/global/can-global.js'></script>
-```
+[MIT](https://github.com/canjs/can-global/blob/master/LICENSE)
