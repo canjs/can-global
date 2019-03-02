@@ -5,15 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/canjs/can-global/blob/master/LICENSE)
 [![npm version](https://badge.fury.io/js/can-global.svg)](https://www.npmjs.com/package/can-global)
 [![Travis build status](https://travis-ci.org/canjs/can-global.svg?branch=master)](https://travis-ci.org/canjs/can-global)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/canjs/can-global?branch=master&svg=true)](https://ci.appveyor.com/project/matthewp/can-global)
-[![Coverage status](https://coveralls.io/repos/github/canjs/can-global/badge.svg?branch=master)](https://coveralls.io/github/canjs/can-global?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-global.svg)](https://greenkeeper.io/)
 
 Returns the global that this environment provides.
-
-## Documentation
-
-Read the [can-global API docs on CanJS.com](https://canjs.com/doc/can-global.html).
 
 ## Changelog
 
