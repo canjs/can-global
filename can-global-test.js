@@ -4,26 +4,26 @@ var isBrowserWindow = require('can-is-browser-window');
 
 QUnit.module("can-global");
 
-test("basics", function(){
+QUnit.test("basics", function(assert) {
 	if(isBrowserWindow()) {
-		ok(getGlobal() === window);
+		assert.ok(getGlobal() === window);
 	} else {
-		ok(getGlobal() === global);
+		assert.ok(getGlobal() === global);
 	}
 });
 
 if(!isBrowserWindow()) {
 	QUnit.module("in Node with fake window", {
-		setup: function(){
+		beforeEach: function(assert) {
 			this.oldWindow = global.window;
 			global.window = {};
 		},
-		teardown: function(){
+		afterEach: function(assert) {
 			global.window = this.oldWindow;
 		}
 	});
 
-	test("Gets the Node global", function(){
-		ok(getGlobal() === global);
+	QUnit.test("Gets the Node global", function(assert) {
+		assert.ok(getGlobal() === global);
 	});
 }
