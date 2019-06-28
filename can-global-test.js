@@ -14,11 +14,11 @@ QUnit.test("basics", function(assert) {
 
 if(!isBrowserWindow()) {
 	QUnit.module("in Node with fake window", {
-		beforeEach: function(assert) {
+		beforeEach: function() {
 			this.oldWindow = global.window;
 			global.window = {};
 		},
-		afterEach: function(assert) {
+		afterEach: function() {
 			global.window = this.oldWindow;
 		}
 	});
